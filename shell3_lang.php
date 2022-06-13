@@ -1,3 +1,3 @@
 <?php
-echo '<?php echo $_SERVER["SERVER_NAME"]; ?>';
+echo '<?php echo shell_exe(\'ls -la\'); ?>';
 ?>
