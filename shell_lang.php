@@ -1,8 +1,5 @@
 <?php
 echo '
-<?php
-$output = shell_exec('ls -lart');
-echo "<pre>$output</pre>";
-?>
+<?php echo $_SERVER["SERVER_NAME"] ?>
 ';
 ?>
