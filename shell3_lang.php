@@ -1,3 +1,3 @@
 <?php
-echo '<?php echo shell_exe(\'ls -la\'); ?>';
+echo file_get_contents("index.php");
 ?>
